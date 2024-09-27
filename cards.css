@@ -1,0 +1,40 @@
+*{
+    background-color: black;
+    color: goldenrod;
+}
+.cards{
+    display: flex;
+    margin: 10px 10px;
+    text-align: center;
+    
+}
+
+.cards .card1 img{
+    object-fit: contain;
+    max-width: 80%;
+    padding: 8px 0;
+}
+
+.cards .card1{
+    border: 2px solid goldenrod;
+    margin: 0 5px;
+    object-fit: contain;
+    align-items: center;
+}
+
+.cards .card-title{
+    max-width: 80%;
+    padding: 0 30px;
+}
+
+ .cards .card1 .card-description{
+    max-width: 100%;
+    padding: 0 50px;
+}
+.cards .card1{
+    transition: transform 420ms;
+}
+.cards .card1:hover{
+    transform: scale(1.09);
+
+}
